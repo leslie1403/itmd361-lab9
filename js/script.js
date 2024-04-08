@@ -7,7 +7,7 @@ function init(){
   function action(){
     var input = document.getElementById("entryinput"); //var input retreives user entry
     document.getElementById("textoutput").innerHTML = input.value; //changes the text to show the input 
-    alert('Leslie Esquivel:' + input.value); //alert box
+    alert('Leslie Esquivel: ' + input.value); //alert box
   }
   //action function completes tasks when entry is inputted 
 
